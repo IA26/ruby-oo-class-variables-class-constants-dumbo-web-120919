@@ -16,4 +16,5 @@ class Shoe
 
   def unique(brands)
     brands.include? 
+  end
 end
