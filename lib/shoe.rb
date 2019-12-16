@@ -14,7 +14,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def unique(brands)
-    brands.include?(brand)
+  def unique(brand)
+    BRANDS.include?(brand)
   end
 end
